@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+.container {
+    background:#9AABD8;
+    padding: 1rem 2.5rem;
+    display:flex;
+    height:100vh;
+    width: 100vv;
+    color: white;
+    justify-content: space-around;
+    text-align: center;
+     
+    /* flex-wrap:nowrap; */
+}
+
+.displayContent {
+    height: 4rem;
+    width: 7rem;
+    background: #000;
+    margin: 10px;
+    
+}
+
+section {
+    width: 8rem;
+    height: 8rem;
+    
+}
+
+#homeScore ,
+#guestScore {
+    color: red;
+    font-size: 3rem;
+    padding: 5px;
+}
+
+.btn {
+    color: white;
+    border: 1px solid white;
+    background: #9AABD8;
+    margin: 2px;
+    
+}
+
+.btn--reset {
+    width:7rem
+}
